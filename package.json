@@ -16,6 +16,8 @@
   "type": "module",
   "dependencies": {
     "express": "^5.2.1",
+    "express-handlebars": "^8.0.6",
+    "lowdb": "^7.0.1",
     "winston": "^3.19.0"
   },
   "devDependencies": {
