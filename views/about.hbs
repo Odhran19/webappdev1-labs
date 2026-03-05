@@ -1,20 +1,38 @@
-<div class="ui centered card">
-  <div class="image">
-    <img src="{{appInfo.image}}">
-  </div>
-  <div class="content">
-    <a class="header">{{appInfo.fullname}}</a>
-    <div class="meta">
-      <span class="date">Joined in {{appInfo.joined}}</span>
+
+{{> menu id = "about"}}
+
+<section class="ui left aligned middle aligned segment">
+    
+    <div>
+        <h2>About the Playlist App</h2>
+        <h3>Our Team</h3>
     </div>
-    <div class="description">
-        {{appInfo.name}} is a {{appInfo.job}} living in {{appInfo.city}}.
+
+    <br>
+
+<div class="horizontally centered ui cards">
+{{#each appInfo}}
+  <div class="card">
+    <div class="image">
+      <img src="{{this.image}}">
+    </div>
+    <div class="content">
+      <a class="header">{{this.fullname}}</a>
+      <div class="meta">
+        <span class="date">Joined in {{this.joined}}</span>
+      </div>
+      <div class="description">
+          {{this.name}} is a {{this.job}} living in {{this.city}}.
+      </div>
+    </div>
+    <div class="extra content">
+      <a>
+        <i class="user icon"></i>
+          {{this.mates}} contacts
+      </a>
     </div>
   </div>
-  <div class="extra content">
-    <a>
-      <i class="user icon"></i>
-        {{appInfo.mates}} contacts
-    </a>
-  </div>
+{{/each}}
 </div>
+</section>
+

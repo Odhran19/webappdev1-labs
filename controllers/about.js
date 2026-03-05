@@ -6,7 +6,7 @@ import employees from "../models/employees.js";
 const about = {
     createView(request,response) {
         logger.info("About page loading!");
-        const appInfo = employees.getAppInfo();
+        const appInfo = employees.getAll();
         response.render('about', { appInfo });
     }
 };
