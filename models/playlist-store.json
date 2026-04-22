@@ -1,51 +1,92 @@
 {
   "playlistCollection": [
     {
-      "id" : "01",
+      "id": "01",
       "title": "Beethoven Sonatas",
       "songs": [
         {
-          "id" : "04",
+          "id": "04",
           "title": "Piano Sonata No. 3",
           "artist": "Beethoven"
         },
         {
-          "id" : "05",
+          "id": "05",
           "title": "Piano Sonata No. 7",
           "artist": "Beethoven"
         },
         {
-          "id" : "06",
+          "id": "06",
           "title": "Piano Sonata No. 10",
           "artist": "Beethoven"
+        },
+        {
+          "id": "3678f557-e698-4ee7-9d51-409a9f64dcda",
+          "title": "People in Mercy",
+          "artist": "The Other person in mercy"
+        },
+        {
+          "id": "64c5a30f-cc47-444d-8044-e005a8134af8",
+          "title": "hon te fuck",
+          "artist": "mon t fuck"
+        },
+        {
+          "id": "1bc10413-f9e8-451d-875b-2b9ba789ecb4",
+          "title": "what is the name of the thing ",
+          "artist": "the person who said the other name "
         }
       ]
     },
     {
-      "id" : "02",
+      "id": "02",
       "title": "Beethoven Concertos",
       "songs": [
         {
-          "id" : "07",
+          "id": "07",
           "title": "Piano Concerto No. 0",
           "artist": "Beethoven"
         },
         {
-          "id" : "08",
+          "id": "08",
           "title": "Piano Concerto No. 4",
           "artist": "Beethoven"
         },
         {
-          "id" : "09",
+          "id": "09",
           "title": "Piano Concerto No. 6",
           "artist": "Beethoven"
         }
       ]
     },
     {
-      "id" : "03",
+      "id": "03",
       "title": "Beethoven Unfinished Symphonies",
       "songs": []
+    },
+    {
+      "id": "90c0ef15-c247-4ab4-a8ac-afc8b0ba065d",
+      "title": "Juicers",
+      "songs": [
+        {
+          "id": "2c55a9bb-2bcb-4e68-9587-71730d404fea",
+          "title": "enough",
+          "artist": "916 frosty"
+        },
+        {
+          "id": "51a3f947-3374-488e-a15b-48dc76d67775",
+          "title": "The Less I Know the Better",
+          "artist": "Tame Impala"
+        },
+        {
+          "id": "5628f8a4-d0ca-4fcf-bac7-7aff6d9be72b",
+          "title": "Aria Math",
+          "artist": "C418"
+        },
+        {
+          "id": "d68cd591-5f92-491c-8c72-d62f8eb468b8",
+          "title": "Breathe",
+          "artist": "Lil Skies"
+        }
+      ]
     }
   ]
 }
