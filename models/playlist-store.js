@@ -34,6 +34,12 @@ const playlistStore = {
     this.store.removeCollection(this.collection, playlist);
   },
 
+  ratePlaylist(id, rating) {
+    const playlist = this.getPlaylist(id);
+    playlist.rating = rating;
+    this.store.save();
+  }
+
 };
 
 export default playlistStore;

@@ -12,7 +12,6 @@ const appStore = {
   getAppInfo() {
     return this.store.findAll(this.collection);
   },
-
 };
 
 export default appStore;

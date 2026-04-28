@@ -1,13 +1,51 @@
 {
   "playlistCollection": [
     {
-      "id": "03",
-      "title": "Beethoven Unfinished Symphonies",
+      "id": "2148ce74-6de4-4309-b810-be289a0f8219",
+      "rating": 3,
+      "title": "Playlist title",
+      "date": "2026-04-28T13:44:22.044Z",
+      "songs": [
+        {
+          "id": "e7e50a0c-9173-4678-a2cd-785fc1baa561",
+          "title": "a song",
+          "artist": "an artist or an author "
+        }
+      ]
+    },
+    {
+      "id": "627f07b5-8b9e-49b8-8be8-6316a58004a5",
+      "rating": 5,
+      "title": "test",
+      "date": "2026-04-28T13:48:21.512Z",
       "songs": []
     },
     {
-      "id": "90c0ef15-c247-4ab4-a8ac-afc8b0ba065d",
-      "title": "Juicers",
+      "id": "998ef6e7-deb1-4686-9538-c695bb1261c9",
+      "rating": 4,
+      "title": "all of these",
+      "date": "2026-04-28T13:55:38.589Z",
+      "songs": []
+    },
+    {
+      "id": "d499db51-d772-49ed-bdb4-09153291fb6c",
+      "rating": 0,
+      "title": "hi",
+      "date": "2026-04-28T14:08:16.349Z",
+      "songs": []
+    },
+    {
+      "id": "b53a8f98-b09e-4865-82c8-a31b7e92d7ac",
+      "title": "putting in stars",
+      "rating": 2,
+      "date": "2026-04-28T14:13:34.429Z",
+      "songs": []
+    },
+    {
+      "id": "7ffe1be5-031b-4e58-ac41-e988b7ba1195",
+      "title": "couple a playlists",
+      "rating": 1,
+      "date": "2026-04-28T14:13:37.433Z",
       "songs": []
     }
   ]
