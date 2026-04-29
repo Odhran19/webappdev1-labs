@@ -1,52 +1,62 @@
 {
   "playlistCollection": [
     {
-      "id": "2148ce74-6de4-4309-b810-be289a0f8219",
-      "rating": 3,
-      "title": "Playlist title",
-      "date": "2026-04-28T13:44:22.044Z",
+      "id": "729af9b9-71d2-44a1-af77-de6a80dfb9b8",
+      "title": "Casual",
+      "date": "2026-04-28T15:34:09.434Z",
+      "rating": 5,
       "songs": [
         {
-          "id": "e7e50a0c-9173-4678-a2cd-785fc1baa561",
-          "title": "a song",
-          "artist": "an artist or an author "
+          "id": "d8278f00-eb55-4bea-812d-ae4039361627",
+          "title": "A rock song that someone made",
+          "artist": "an artist that i dont know"
+        },
+        {
+          "id": "514cf008-48b2-4abb-9948-4cf1d387b059",
+          "title": "a second, unrecognisable rock song",
+          "artist": "a second, unknown artist"
+        },
+        {
+          "id": "d9a88294-55b3-4a54-ba33-e984e28c2722",
+          "title": "and a third, strange rock song",
+          "artist": "a similar, strange, but still unknown artist"
         }
       ]
     },
     {
-      "id": "627f07b5-8b9e-49b8-8be8-6316a58004a5",
+      "id": "fb222f76-cba7-479c-a16e-58a59a201fa6",
+      "title": "Jazz",
+      "date": "2026-04-28T15:34:21.429Z",
       "rating": 5,
-      "title": "test",
-      "date": "2026-04-28T13:48:21.512Z",
       "songs": []
     },
     {
-      "id": "998ef6e7-deb1-4686-9538-c695bb1261c9",
-      "rating": 4,
-      "title": "all of these",
-      "date": "2026-04-28T13:55:38.589Z",
-      "songs": []
-    },
-    {
-      "id": "d499db51-d772-49ed-bdb4-09153291fb6c",
+      "id": "f7acd14e-b424-4c5f-b337-08b4be326a2f",
+      "title": "Modern",
+      "date": "2026-04-28T15:34:26.189Z",
       "rating": 0,
-      "title": "hi",
-      "date": "2026-04-28T14:08:16.349Z",
-      "songs": []
-    },
-    {
-      "id": "b53a8f98-b09e-4865-82c8-a31b7e92d7ac",
-      "title": "putting in stars",
-      "rating": 2,
-      "date": "2026-04-28T14:13:34.429Z",
-      "songs": []
-    },
-    {
-      "id": "7ffe1be5-031b-4e58-ac41-e988b7ba1195",
-      "title": "couple a playlists",
-      "rating": 1,
-      "date": "2026-04-28T14:13:37.433Z",
-      "songs": []
+      "songs": [
+        {
+          "id": "c790ab7d-536a-4277-869b-80391054edf6",
+          "title": "a modern song",
+          "artist": "a modern artist"
+        },
+        {
+          "id": "14c25e05-68f1-4ef9-9b7c-3bb54fcf0571",
+          "title": "didnt i tell you",
+          "artist": "what i believenm"
+        },
+        {
+          "id": "7ad55817-f25a-4e39-9d65-14fb0c042e27",
+          "title": "i think you did",
+          "artist": "a good artist"
+        },
+        {
+          "id": "146c0f08-dc32-4950-b12c-58d6ff72d930",
+          "title": "here i am ",
+          "artist": "adding some songs"
+        }
+      ]
     }
   ]
 }

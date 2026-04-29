@@ -38,7 +38,11 @@ const playlistStore = {
     const playlist = this.getPlaylist(id);
     playlist.rating = rating;
     this.store.save();
-  }
+  },
+
+  editSong(id, songId, updatedSong) {
+    this.store.editItem(this.collection, id, songId, this.array, updatedSong);
+  },
 
 };
 

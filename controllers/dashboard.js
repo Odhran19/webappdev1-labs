@@ -38,13 +38,13 @@ const dashboard = {
     playlistStore.removePlaylist(playlistId);
     response.redirect("/dashboard");
   },
-  
+
   ratePlaylist(request, response) {
     const playlistId = request.params.id;
     const rating = parseInt(request.body.rating);
     playlistStore.ratePlaylist(playlistId, rating);
     response.redirect("/dashboard");
-  }
+  },
 
   
 };
