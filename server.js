@@ -3,6 +3,7 @@
 import express from 'express';
 import routes from './routes.js'; 
 import logger from "./utils/logger.js";
+import playlistStore from "./models/playlist-store.js";
 import { create } from 'express-handlebars';
 import bodyParser from "body-parser";
 
@@ -31,8 +32,9 @@ const handlebars = create ({
         highlightPopular: (rating) => {
             let message = rating >= 4 ? "Popular with listeners!" : "";
             return message;
-        }
-    },
+        },
+    }
+        
 });
 app.engine(".hbs", handlebars.engine);
 app.set("view engine", ".hbs");

@@ -1,62 +1,193 @@
 {
   "playlistCollection": [
     {
-      "id": "729af9b9-71d2-44a1-af77-de6a80dfb9b8",
-      "title": "Casual",
-      "date": "2026-04-28T15:34:09.434Z",
+      "id": "c6c6c38c-1eec-4fca-bee8-0e35a9a3eb73",
+      "title": "Jazz Music",
+      "date": "2026-04-29T12:38:31.962Z",
       "rating": 5,
       "songs": [
         {
-          "id": "d8278f00-eb55-4bea-812d-ae4039361627",
-          "title": "A rock song that someone made",
-          "artist": "an artist that i dont know"
+          "id": "1b14dfc0-f83e-462b-a3fb-05322cdcfec4",
+          "title": "Piano Solo",
+          "artist": "John"
         },
         {
-          "id": "514cf008-48b2-4abb-9948-4cf1d387b059",
-          "title": "a second, unrecognisable rock song",
-          "artist": "a second, unknown artist"
+          "id": "db375c96-494b-497c-a23f-193a32917756",
+          "title": "Guitar Duo",
+          "artist": "Smiths"
         },
         {
-          "id": "d9a88294-55b3-4a54-ba33-e984e28c2722",
-          "title": "and a third, strange rock song",
-          "artist": "a similar, strange, but still unknown artist"
+          "id": "2d737475-c522-46c4-8382-d96fe6639b6d",
+          "title": "Wine Bar",
+          "artist": "Contemporary "
+        },
+        {
+          "id": "ac924407-a727-407a-8952-f16a86db6482",
+          "title": "Violin",
+          "artist": "Beethoven"
+        },
+        {
+          "id": "8711e4e8-ad5e-496c-90ef-9d134308fa4d",
+          "title": "Piano 2",
+          "artist": "Retuhn"
+        },
+        {
+          "id": "bc04ba0a-541f-41ba-bd18-8028a980e5c4",
+          "title": "Slow Music",
+          "artist": "Slow Artist"
+        },
+        {
+          "id": "6c39c15f-0a0e-4b03-9d21-e56cbdbf5f5b",
+          "title": "Never ending",
+          "artist": "Relaxing"
         }
       ]
     },
     {
-      "id": "fb222f76-cba7-479c-a16e-58a59a201fa6",
-      "title": "Jazz",
-      "date": "2026-04-28T15:34:21.429Z",
-      "rating": 5,
+      "id": "c3805535-e8f8-470c-aa47-edb9cf2dc2e6",
+      "title": "Not-so-good",
+      "date": "2026-04-29T12:40:32.198Z",
+      "rating": 1,
+      "songs": [
+        {
+          "id": "06f345a1-12c1-4179-ad0d-2a162307f173",
+          "title": "A bad song",
+          "artist": "a bad artist"
+        },
+        {
+          "id": "0d8c05e3-73ee-4ce9-8b6c-b1cc4105f423",
+          "title": "another bad song",
+          "artist": "another bad artist"
+        },
+        {
+          "id": "b13ebd6e-e964-494b-a67c-7809dca790e3",
+          "title": "an insufferable song",
+          "artist": "an insufferable artist"
+        },
+        {
+          "id": "bdd1393d-3276-445a-85c9-e6197d43ade3",
+          "title": "a deplorable cacophony of noise",
+          "artist": "a heavily disliked artist"
+        },
+        {
+          "id": "208a01a8-048f-4030-bc9e-1174d89e96dd",
+          "title": "turn it off",
+          "artist": "never sing again"
+        },
+        {
+          "id": "75a7a3d2-1cb9-4598-8198-f1a7c8338a38",
+          "title": "an underdeveloped song",
+          "artist": "an unfortunate artist"
+        },
+        {
+          "id": "170e8a20-ca9f-4807-924a-91ee3a1f749d",
+          "title": "a widely hated track",
+          "artist": "a hated artist"
+        }
+      ]
+    },
+    {
+      "id": "06abd4b0-de94-4fd6-8708-8f113af3867d",
+      "title": "Study Music",
+      "date": "2026-04-29T12:42:43.942Z",
+      "rating": 3,
+      "songs": [
+        {
+          "id": "cbe384ee-e865-42c7-a80c-cac8c299d9c2",
+          "title": "Coding",
+          "artist": "The Coder"
+        },
+        {
+          "id": "c626aa17-3311-482a-889f-f7ebe9144c09",
+          "title": "Drawing",
+          "artist": "The Draw-er"
+        },
+        {
+          "id": "35a74c1e-3e21-4a5c-b268-0b5dd77b9af1",
+          "title": "Studying",
+          "artist": "The studyer"
+        },
+        {
+          "id": "c60a7b7c-be54-47b9-ba8d-816203ebcd72",
+          "title": "Solving",
+          "artist": "The thinker"
+        },
+        {
+          "id": "caf243e5-6ce0-4c44-a870-070bcc45cc2b",
+          "title": "Working hard",
+          "artist": "Hardly Working"
+        }
+      ]
+    },
+    {
+      "id": "0104f79f-7a18-4a69-962d-e5726cde6e02",
+      "title": "Video Game Soundtracks",
+      "date": "2026-04-29T12:44:35.794Z",
+      "rating": 4,
+      "songs": [
+        {
+          "id": "8f51be9f-5909-4708-999f-29874e479314",
+          "title": "115",
+          "artist": "zombies"
+        },
+        {
+          "id": "e68a6e09-4bfb-4dce-9895-2394478aa0f1",
+          "title": "Moog City",
+          "artist": "C418"
+        },
+        {
+          "id": "008fc951-9702-4caa-9cde-7e2932b4296b",
+          "title": "chase music",
+          "artist": "dbd"
+        },
+        {
+          "id": "89215341-e95a-491f-b5c6-596b319c29ee",
+          "title": "hooked music",
+          "artist": "dbd"
+        },
+        {
+          "id": "46748bde-2280-4650-bd57-ce0330184057",
+          "title": "Droopy Likes your face",
+          "artist": "C418"
+        },
+        {
+          "id": "43a0c88a-18b8-45b7-bd88-81dd7dcd5329",
+          "title": "lobby music",
+          "artist": "terr-rawr-ria"
+        }
+      ]
+    },
+    {
+      "id": "e38480d2-c4bf-417d-a8cb-5f7d12e85756",
+      "title": "pop",
+      "date": "2026-04-29T13:03:22.252Z",
+      "rating": 4,
+      "songs": [
+        {
+          "id": "29fe86ba-ccae-4dbc-bb02-5c7352eb4f60",
+          "title": "a pop song",
+          "artist": "a pop artist"
+        },
+        {
+          "id": "9ddf229f-293c-46e0-baf9-b16d847ad084",
+          "title": "cant think of one",
+          "artist": "which is weird"
+        }
+      ]
+    },
+    {
+      "id": "955fc7f7-c2f5-4d77-99c3-9d08dc1527d2",
+      "title": "empty playlist test",
+      "date": "2026-04-29T13:22:26.798Z",
+      "rating": null,
       "songs": []
     },
     {
-      "id": "f7acd14e-b424-4c5f-b337-08b4be326a2f",
-      "title": "Modern",
-      "date": "2026-04-28T15:34:26.189Z",
-      "rating": 0,
-      "songs": [
-        {
-          "id": "c790ab7d-536a-4277-869b-80391054edf6",
-          "title": "a modern song",
-          "artist": "a modern artist"
-        },
-        {
-          "id": "14c25e05-68f1-4ef9-9b7c-3bb54fcf0571",
-          "title": "didnt i tell you",
-          "artist": "what i believenm"
-        },
-        {
-          "id": "7ad55817-f25a-4e39-9d65-14fb0c042e27",
-          "title": "i think you did",
-          "artist": "a good artist"
-        },
-        {
-          "id": "146c0f08-dc32-4950-b12c-58d6ff72d930",
-          "title": "here i am ",
-          "artist": "adding some songs"
-        }
-      ]
+      "id": "ac626f98-9d18-4a80-b175-01475baec43c",
+      "title": "empty test 2 ",
+      "date": "2026-04-29T13:22:42.765Z",
+      "rating": null,
+      "songs": []
     }
   ]
 }
