@@ -6,12 +6,14 @@ import logger from "./utils/logger.js";
 import playlistStore from "./models/playlist-store.js";
 import { create } from 'express-handlebars';
 import bodyParser from "body-parser";
+import cookieParser from "cookie-parser";
 
 const app = express();
 const port = 3000;
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({extended: false, }));
+app.use(cookieParser());
 
 const handlebars = create ({
     extname: '.hbs',

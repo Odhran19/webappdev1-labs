@@ -50,6 +50,16 @@ const playlistStore = {
       (playlist => playlist.title.toLowerCase().includes(searchTerm.toLowerCase()))
     )
   },
+
+  getUserPlaylists(userId) {
+    return this.store.findBy(this.collection, (playlist => playlist.userId === userId));
+  },
+
+  searchUserPlaylists(search, userId) {
+    return this.store.findBy(
+      this.collection,
+      (playlist => playlist.userId === userId && playlist.title.toLowerCase().includes(search.toLowerCase())))
+  },
 };
 
 export default playlistStore;

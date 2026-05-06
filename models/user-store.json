@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "firstName": "odhran",
+      "lastName": "brennan",
+      "email": "odhran@brennan.com",
+      "password": "secret",
+      "id": "d541dbea-5ab7-4228-a9df-a003b6cebfcc"
+    },
+    {
+      "firstName": "homer",
+      "lastName": "simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "id": "2c1c238e-1f15-4c83-a647-ca0ffd964a57"
+    },
+    {
+      "firstName": "aTest",
+      "lastName": "Person",
+      "email": "atest@person.com",
+      "password": "secret",
+      "id": "bcf5a364-9f41-42d8-83ca-2114d2de9d77"
+    }
+  ]
+}
