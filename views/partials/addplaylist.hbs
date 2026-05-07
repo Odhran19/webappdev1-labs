@@ -1,21 +1,24 @@
-<form class="ui stacked segment form" action="/dashboard/addplaylist" method="POST">
-<div class="two fields">
+<form class="ui stacked segment form" action="/dashboard/addplaylist" method="POST" enctype="multipart/form-data"> <!--the enctype attribute specifies how the form data should be encoded when submitting it to the server. In this case, it is set to "multipart/form-data" which is necessary for file uploads. --> 
+
+  <div class="three fields">
+    
     <div class="field">
-        <label>Title</label>
-        <input placeholder="Title" type="text" name="title" autofocus required>
+      <label>Title</label>
+      <input placeholder="Title" type="text" name="title" autofocus required>
     </div>
+    
     <div class="field">
-        <label>Rating</label>
-        <select class="ui dropdown" name="rating">
-            <option value="">Select rating</option>
-            <option value="0">0</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-        </select>
+      <label>Rating</label>
+      <input placeholder="Rating" type="number" name="rating" required>
     </div>
-</div>
-<button class="ui blue submit button">Add Playlist</button>
+    
+    <div class="field">
+      <label>Image</label>
+      <input placeholder="Image" type="file" name="picture" required>
+    </div>
+    
+  </div>
+
+  <button class="ui blue submit button">Add Playlist</button>
+
 </form>

@@ -71,15 +71,18 @@ const dashboard = {
       date: timestamp
     };
 
-    playlistStore.addPlaylist(newPlaylist);
-    response.redirect('/dashboard');
+    //the below function now contains a callback function, which contains a redirect to the dashboard. This will be executed after the addPlaylist function has been completed successfully, it also uses request.files.picture to get the picture that the user added to the form, this is then passed along to the playlistStore.addPlaylist function
+    playlistStore.addPlaylist(newPlaylist, request.files.picture, function(){
+      response.redirect("/dashboard");
+    });
   },
 
   deletePlaylist(request, response) {
     const playlistId = request.params.id;
     logger.debug(`Deleting Playlist ${playlistId}`);
-    playlistStore.removePlaylist(playlistId);
-    response.redirect("/dashboard");
+    playlistStore.removePlaylist(playlistId, function() {
+      response.redirect("/dashboard");
+    });
   },
 
   ratePlaylist(request, response) {

@@ -21,17 +21,36 @@ const playlistStore = {
     this.store.addItem(this.collection, id, this.array, song);
   },
 
-  addPlaylist(playlist) {
-    this.store.addCollection(this.collection, playlist);
+    async addPlaylist(playlist, file, response) {
+    try {
+      playlist.picture = await this.store.addToCloudinary(file);
+      this.store.addCollection(this.collection, playlist);
+      response();
+    } catch (error) {
+      logger.error("Error processing playlist:", error);
+      response(error);
+    }
   },
+
 
   removeSong(id, songId) {
     this.store.removeItem(this.collection, id, this.array, songId);
   },
 
-  removePlaylist(id) {
+  async removePlaylist(id, response) {
     const playlist = this.getPlaylist(id);
-    this.store.removeCollection(this.collection, playlist);
+
+    if(playlist.picture && playlist.picture.public_id) { //checks if the playlist has a picture property and a public_id
+      try {
+        await this.store.deleteFromCloudinary(playlist.picture.public_id); //if it does it calls deleteFromCloudinary and passes in that stored image as a parameter and removes the playlist from the collection as it did before
+        logger.info("Cloudinary image deleted");
+      } catch(err) {
+        logger.error("Failed to delete Cloudinary image:", err);
+      }
+    }
+
+    this.store.removeCollection(this.collection, playlist); 
+    response(); //redirects to dashboard
   },
 
   ratePlaylist(id, rating) {
