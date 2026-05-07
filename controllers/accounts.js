@@ -43,10 +43,16 @@ const accounts = {
   register(request, response) {
     const user = request.body;
     user.id = uuidv4();
-    userStore.addUser(user);
-    response.cookie('playlist', user.email);
-    logger.info('registering and logging in ' + user.email);
-    response.redirect('/start');
+    userStore.addUser(user, request.files.file, (error) => {
+      if (error) {
+        logger.error('Error registering user:', error);
+        response.redirect('/signup');
+      } else {
+        response.cookie('playlist', user.email);
+        logger.info('registering and logging in ' + user.email);
+        response.redirect('/start');
+      }
+    });
   },
   
   //authenticate function to check user credentials and either render the login page again or the start page.

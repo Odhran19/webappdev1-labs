@@ -20,6 +20,39 @@
       "email": "atest@person.com",
       "password": "secret",
       "id": "bcf5a364-9f41-42d8-83ca-2114d2de9d77"
+    },
+    {
+      "firstName": "marge",
+      "lastName": "simpson",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "id": "311b2b1e-a9c7-4c22-b175-d225af1eafa5",
+      "picture": {
+        "url": "http://res.cloudinary.com/ddbw7slzh/image/upload/v1778125384/zyyormy0vyxc5gxtjo10.png",
+        "public_id": "zyyormy0vyxc5gxtjo10"
+      }
+    },
+    {
+      "firstName": "mary",
+      "lastName": "duke",
+      "email": "mary@duke.com",
+      "password": "secret",
+      "id": "843a2039-2bae-4b7b-9967-d8ffcd70f1d3",
+      "picture": {
+        "url": "http://res.cloudinary.com/ddbw7slzh/image/upload/v1778126682/av0nq4avde22zxro1wem.jpg",
+        "public_id": "av0nq4avde22zxro1wem"
+      }
+    },
+    {
+      "firstName": "kytnore",
+      "lastName": "kyoto",
+      "email": "kytnore@kyoto.com",
+      "password": "secret",
+      "id": "629bd0b4-011a-426a-8584-d2371e8c246a",
+      "picture": {
+        "url": "http://res.cloudinary.com/ddbw7slzh/image/upload/v1778127089/uxv19cqb7wvouew46cxm.webp",
+        "public_id": "uxv19cqb7wvouew46cxm"
+      }
     }
   ]
 }

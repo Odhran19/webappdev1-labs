@@ -15,6 +15,18 @@
       "rating": 2,
       "songs": [],
       "date": "2026-05-06T19:31:46.066Z"
+    },
+    {
+      "userId": "629bd0b4-011a-426a-8584-d2371e8c246a",
+      "id": "7cfd8052-04c6-49db-8f29-cd87500ac3bc",
+      "title": "Thumbup",
+      "rating": 4,
+      "songs": [],
+      "date": "2026-05-07T04:37:35.363Z",
+      "picture": {
+        "url": "http://res.cloudinary.com/ddbw7slzh/image/upload/v1778128655/k82jafdymrfzzvwhcbx4.webp",
+        "public_id": "k82jafdymrfzzvwhcbx4"
+      }
     }
   ]
 }
